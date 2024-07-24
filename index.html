@@ -4,19 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div class="parent">
+  <body >
+
+    <div class="parent" >
       <div id="navbar" class="nav">
-          <h1>Irfan Builders</h1>
-          <div class="nav-links">
-            <a href="#card-1-desktop">Services</a>
-            <a href="#card-2-desktop">Projects</a>
-            <a href="#card-3-desktop">Team</a>
-            <a href="#card-4-desktop">Contact Us</a>
-        </div>
-        <div  class="hamburger-menu">
+          <h1 class="mukta-semibold" >Irfan Builders</h1>
+          <nav class="nav-links">
+            <a class="mukta-light" href="#card-1-desktop">Services</a>
+            <a class="mukta-light" href="#card-2-desktop">Projects</a>
+            <a class="mukta-light" href="#card-3-desktop">Team</a>
+            <a class="mukta-light" href="#card-4-desktop">Contact Us</a>
+          </nav>
+
+      
+
+        <div id="hamburger-menu" class="hamburger-menu">
           <label class="burger" for="burger">
             <input type="checkbox" id="burger">
             <span></span>
@@ -26,63 +35,66 @@
         </div>
       </div>
       
-      <div class="cards">
-        <div id="card-1-desktop" class="cards-desktop card-1-desktop">
+      <div data-scroll-container  class="cards ">
+        <div  data-scroll-section  id="card-1-desktop" class="cards-desktop card-1-desktop">
           <!-- <img src="./assets/hero1IMG.png" alt="" /> -->
-          <h1>DHWANI</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1 data-scroll data-scroll-speed="1">DHWANI</h1>
+          <a data-scroll data-scroll-speed="2" href="">view project&rightarrow;</a>
         </div>
-       <div  id="card-2-desktop" class="cards-desktop card-2-desktop">
+       <div data-scroll-section  id="card-2-desktop" class="cards-desktop card-2-desktop">
           <!-- <img src="./assets/hero2IMG.png" alt="" /> -->
-          <h1>MANNAT</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1  data-scroll data-scroll-speed="1">MANNAT</h1>
+          <a data-scroll data-scroll-speed="2" href="">view project&rightarrow;</a>
         </div>
-       <div id="card-3-desktop"  class="cards-desktop card-3-desktop">
+       <div  data-scroll-section id="card-3-desktop"  class="cards-desktop card-3-desktop">
           <!-- <img src="./assets/hero3IMG.png" alt="" /> -->
-          <h1>ASTHAH</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1 data-scroll data-scroll-speed="1">ASTHAH</h1>
+          <a data-scroll data-scroll-speed="2" href="">view project&rightarrow;</a>
         </div>
-        <div id="card-4-desktop"  class="cards-desktop card-4-desktop">
+        <div data-scroll-section  id="card-4-desktop"  class="cards-desktop card-4-desktop">
           <!-- <img src="./assets/hero4IMG.png" alt="" /> -->
-          <h1>HARSHAM</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1 data-scroll data-scroll-speed="1">HARSHAM</h1>
+          <a data-scroll data-scroll-speed="2 href="">view project&rightarrow;</a>
         </div>
-        <div id="card-5-desktop"  class="cards-desktop card-5-desktop">
+        <div data-scroll-section id="card-5-desktop"  class="cards-desktop card-5-desktop">
           <!-- <img src="./assets/hero5IMG.png" alt="" /> -->
-          <h1>WAYSIDE</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1  data-scroll data-scroll-speed="1">WAYSIDE</h1>
+          <a data-scroll data-scroll-speed="2 href="">view project&rightarrow;</a>
         </div>
 
 
-        <div id="card-1-mobile" class="cards-mobile card-1-mobile">
+        <div data-scroll-section id="card-1-mobile" class="cards-mobile card-1-mobile">
           <!-- <img src="./assets/hero1MIMG.png" alt="" /> -->
-          <h1>DHWANI</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1 data-scroll data-scroll-speed="1">DHWANI</h1>
+          <a data-scroll data-scroll-speed="2"  href="">view project&rightarrow;</a>
         </div>
-        <div id="card-2-mobile" class="cards-mobile card-2-mobile">
+        <div data-scroll-section id="card-2-mobile" class="cards-mobile card-2-mobile">
           <!-- <img src="./assets/hero2MIMG.png" alt="" /> -->
-          <h1>MANNAT</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1 data-scroll data-scroll-speed="1">MANNAT</h1>
+          <a data-scroll data-scroll-speed="2"  href="">view project&rightarrow;</a>
         </div>
-        <div  id="card-3-mobile" class="cards-mobile card-3-mobile">
+        <div data-scroll-section  id="card-3-mobile" class="cards-mobile card-3-mobile">
           <!-- <img src="./assets/hero3MIMG.png" alt="" /> -->
-          <h1>ASTHAH</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1 data-scroll data-scroll-speed="1">ASTHAH</h1>
+          <a data-scroll data-scroll-speed="2"  href="">view project&rightarrow;</a>
         </div>
-        <div  id="card-4-mobile" class="cards-mobile card-4-mobile">
+        <div data-scroll-section id="card-4-mobile" class="cards-mobile card-4-mobile">
           <!-- <img src="./assets/hero4MIMG.png" alt="" /> -->
-          <h1>HARSHAM</h1>
-          <a href="">view project&rightarrow;</a>
+          <h1 data-scroll data-scroll-speed="1">HARSHAM</h1>
+          <a data-scroll data-scroll-speed="2"   href="">view project&rightarrow;</a>
         </div>
-     <!--   <div  id="card-5-mobile" class="cards-mobile card-5-mobile">
-           <img src="./assets/hero2IMG.png" alt="" /> 
-          <h1>Card 5</h1>
-        </div>-->
+       <div data-scroll-section id="card-5-mobile" class="cards-mobile card-5-mobile">
+           <!-- <img src="./assets/hero2IMG.png" alt="" />  -->
+          <h1 data-scroll data-scroll-speed="1">CHAHAT</h1>
+          <a data-scroll data-scroll-speed="2"  href="">view project&rightarrow;</a>
+        </div>
 
       </div>
       <div class="footer">Footer</div>
     </div>
     
+ 
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
