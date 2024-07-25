@@ -295,7 +295,7 @@ body {
    
 }
 .card-5-mobile{
-    /* background-image: url(./assets/hero5MIMG.png); */
+    background-image: url(./assets/hero5MIMG.png); 
     & img{
 
       max-width: 100vw;
