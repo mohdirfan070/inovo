@@ -221,10 +221,10 @@ body {
 }
 
 .card-1-mobile,.card-2-mobile,.card-3-mobile,.card-4-mobile,.card-5-mobile{
-    /* background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; */
+    background-attachment: fixed;
     
     height: 100vh;
     color: white;
@@ -277,7 +277,7 @@ body {
 
 }
 
-/* 
+
 .card-1-mobile{
     background-image: url(./assets/hero1MIMG.png); 
 
@@ -293,7 +293,7 @@ body {
 .card-4-mobile{
     background-image: url(./assets/hero4MIMG.png);
    
-} */
+}
 .card-5-mobile{
     /* background-image: url(./assets/hero5MIMG.png); */
     & img{
