@@ -1,4 +1,6 @@
 
+
+
 * {
     
   padding: auto;
@@ -53,7 +55,7 @@ body {
 }
 
 .nav {
-  height: 6rem;
+  height: 5rem;
   width: 100%;
   color: white;
   position: sticky;
@@ -66,7 +68,7 @@ body {
   background-color: #292f35b2;
 
   & h1{
-    margin-left: 1rem;
+   padding: 1rem;
     font-size: 2.6rem;
   }
 }
@@ -153,7 +155,7 @@ body {
 
 
 .parent {
-  position: relative;
+  /* position: relative; */
   width: 100%;
 
 }
@@ -164,19 +166,23 @@ body {
 }
 
 .card-1-desktop,.card-2-desktop,.card-3-desktop,.card-4-desktop,.card-5-desktop{
-    background-position: center;
+   /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+     background-attachment: fixed; */
     
     height: 100vh;
     color: white;
     position: relative;
-
-    display: flex;
-    flex-direction: center;
-    justify-items: center;
     width: 100%;  
+    max-width: 100%;  
+
+    & img{
+      height: inherit;
+      width: inherit;
+
+    }
+
 
     & h1{
         position: absolute;
@@ -215,19 +221,25 @@ body {
 }
 
 .card-1-mobile,.card-2-mobile,.card-3-mobile,.card-4-mobile,.card-5-mobile{
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     
     height: 100vh;
     color: white;
     position: relative;
 
     display: none;
-    flex-direction: center;
-    justify-items: center;
     max-width: 100%;  
+
+
+    & img{
+      height: 100%;
+      width: 100%;
+    }
+
+
 
     & h1{
         position: absolute;
@@ -265,7 +277,7 @@ body {
 
 }
 
-
+/* 
 .card-1-mobile{
     background-image: url(./assets/hero1MIMG.png); 
 
@@ -281,15 +293,19 @@ body {
 .card-4-mobile{
     background-image: url(./assets/hero4MIMG.png);
    
-}
+} */
 .card-5-mobile{
-    background-image: url(./assets/hero5MIMG.png);
-    max-width: 100vw;
-    background-position: right;
+    /* background-image: url(./assets/hero5MIMG.png); */
+    & img{
+
+      max-width: 100vw;
+      background-position: center;
+      object-fit: cover;
+    }
 }
 
 
-
+/* 
 .card-1-desktop{
     background-image: url(./assets/hero1IMG.png); 
 
@@ -309,7 +325,41 @@ body {
 }
 .card-5-desktop{
     background-image: url(./assets/hero5IMG.png);
+} */
+
+
+
+.projects{
+  background-color: #292f35;
+  height: max-content;
+  & h1{
+    margin: 2rem 1rem;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    
+  }
 }
+
+
+.project-card{
+
+  & img{
+    height: inherit;
+    width: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
